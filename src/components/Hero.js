@@ -10,16 +10,18 @@ const Hero = () => {
     <HeroBg>
       <VideoBg src={Video} type="video/mp4" autoPlay loop muted playsInline  />
     </HeroBg>
-    <HeroContainer>
+    <HeroContent>
       <HeroItems>
         <HeroH1>Destinos inesqueciveis</HeroH1>
         <HeroP>Lugares turisticos</HeroP>
-        <Button>Viagem Agora</Button>
+        <Button primary="true" big="true" round="true" to="/viagens">Viagem Agora
+        </Button>
       </HeroItems>
+     </HeroContent>
     </HeroContainer>
-  </HeroContainer>
     )
 }
+
 export default Hero
 
 const HeroContainer = styled.div `
@@ -32,12 +34,53 @@ padding: 0 1rem;
 margin-top: -80px;
 color: #fff;
 `
-const HeroBg = styled.div ``
-const VideoBg = styled.video ``
+const HeroBg = styled.div `
+position: absolute;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+width: 100%;
+height: 100%;
+overflow: hidden;
+`
 
-const HeroContent = styled.div ``
-const HeroItems= styled.div ``
 
-const HeroH1 = styled.h1 ``
+const VideoBg = styled.video `
+width: 100%;
+height: 100%;
+-o-object-fit: cover;
+object-fit: cover;
+`
 
-const HeroP = styled.p``
+const HeroContent = styled.div `
+z-index: 3;
+height: calc(100vh - 80px);
+max-height: 100%;
+padding: 0rem calc((100vw - 1300px) /2);
+`
+const HeroItems= styled.div `
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+height: 100vh;
+max-height: 100%;
+padding: 0;
+color: #fff;
+line-height: 1.1;
+font-weight: bold;
+`
+
+const HeroH1 = styled.h1`
+  font-size: clamp(1.5rem, 6vw, 4rem);
+  margin-bottom: 1.5rem;
+  letter-spacing: 3px;
+  padding: 0 1rem;
+`
+
+const HeroP = styled.p`
+  font-size: clamp(1rem, 3vw, 3rem);
+  margin-bottom: 2rem;
+`
