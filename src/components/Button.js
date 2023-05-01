@@ -2,7 +2,7 @@ import styled from "styled-components";
 import {Link} from 'gatsby'
 
 export const Button = styled(Link)`
-  background: ${({primary}) => (primary ? '#05a081': '#05a081')};
+  background: ${({primary}) => (primary ? '#f8b014': '#f8b014')};
   white-space: nowrap;
   padding: ${({ big}) => (big? '16px 40px':'10px 32px')};
   color: #fff;
@@ -16,7 +16,7 @@ export const Button = styled(Link)`
   border-radius: ${({ round}) => (round ? '50px': 'none')};
 
   &:hover {
-    background: ${({ primary }) => (primary ? "#59a18f" : "#59a18f")};
+    background: ${({ primary }) => (primary ? "#55a194" : "#55a194")};
     transform: translateY(-2px);
   }
 `

@@ -1,0 +1,27 @@
+[
+    {
+        "img": "../assets/images/travel-1.jpg",
+        "alt": "Elevador Lacerda(Salvador)",
+        "name": "Elevador Lacerda(Salvador)",
+        "button": "Ver Destino"
+    },
+
+    {
+        "img": "../assets/images/travel-2.jpg",
+        "alt": "Cristo Redentor, RJ",
+        "name": "Cristo Redentor, RJ",
+        "button": "Ver Destino"
+    },
+    {
+        "img": "../assets/images/travel-3.jpg",
+        "alt": "Bonito, MS",
+        "name": "Bonito, MS",
+        "button": "Ver Destino"
+    },
+    {
+        "img": "../assets/images/travel-4.jpg",
+        "alt": "Maceió, AL",
+        "name": "Maceió, AL",
+        "button": "Ver Destino"
+    }
+]

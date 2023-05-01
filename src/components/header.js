@@ -2,7 +2,7 @@ import * as React from "react"
 import { Link } from "gatsby"
 import styled from 'styled-components'
 import { FaBars } from 'react-icons/fa' 
-import { menuData } from "./data/MenuData"
+import { menuData } from "../data/MenuData"
 import { Button } from "./Button"
 
 const Header = () => {
@@ -28,7 +28,6 @@ const Header = () => {
 export default Header
 
 const Nav = styled.nav`
-   /* background: #00bc92; */
    background: transparent;
    height: 80px;
    display: flex;
