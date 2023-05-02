@@ -35,6 +35,14 @@ const Testimonials = () => {
 <ContentWrapper>
 <ColumnOne>
 <Testimonial>
+<IoMdCheckmarkCircleOutline css={`color: #3fffa8;font-size: 2rem; margin-bottom: 1rem;`}      
+ />
+ <h3>Derick da Silva</h3>
+ <p>
+    "Eu acabei de voltar de uma viagem incrível e eu só queria deixar registrado o quão grato estou pela equipe do serviço de viagem que me ajudou a planejar tudo. Desde o primeiro contato, fiquei impressionado com o profissionalismo e a atenção aos detalhes."
+    </p>
+</Testimonial>
+<Testimonial>
 <FaRegLightbulb 
  css={`color: #f9b19b;font-size: 2rem; margin-bottom: 1rem;`}      
  />
@@ -42,14 +50,6 @@ const Testimonials = () => {
 <p>
     {" "}
     "Graças a eles, eu pude aproveitar cada momento da minha viagem sem preocupações e eu tenho certeza de que não teria sido tão incrível sem a ajuda deles. Eu definitivamente recomendaria este serviço de viagem para qualquer um que esteja planejando uma viagem e procurando uma experiência sem complicações e inesquecível."
-    </p>
-</Testimonial>
-<Testimonial>
-<IoMdCheckmarkCircleOutline css={`color: #3fffa8;font-size: 2rem; margin-bottom: 1rem;`}      
- />
- <h3>Derick da Silva</h3>
- <p>
-    "Eu acabei de voltar de uma viagem incrível e eu só queria deixar registrado o quão grato estou pela equipe do serviço de viagem que me ajudou a planejar tudo. Desde o primeiro contato, fiquei impressionado com o profissionalismo e a atenção aos detalhes."
     </p>
 </Testimonial>
 </ColumnOne>
