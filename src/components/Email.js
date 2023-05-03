@@ -8,7 +8,7 @@ const Email = () => {
 <EmailContainer>
     <EmailContent>
         <h1>Obtenha acesso a ofertas exclusivas</h1>
-        <p>Cadastre seu email e receba R$100,00 de desconto na primeira viagem!
+        <p>Cadastre seu email e ganhe R$100,00 de desconto na primeira viagem!
         </p>
         <form action="#">
             <FormWrap>

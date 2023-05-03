@@ -5,7 +5,7 @@ import { StatsData } from '../data/StatsData'
 const Stats = () => {
     return (
 <StatsCointainer>
-    <Heading>Porque Nos Escolher?</Heading>
+    <Heading>Porque nos escolher?</Heading>
     <Wrapper>
     {StatsData.map((item, index) => {
         return (
