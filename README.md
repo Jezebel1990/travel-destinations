@@ -11,11 +11,11 @@ Welcome, this project is a Brazilian travel responsive website.
 
 
 ##  👀 Preview
-![Captura de tela 2023-05-03 205105](https://user-images.githubusercontent.com/75287031/236076401-5a81309e-19d5-43dd-8075-e12f2c4f2bd9.png)
-![Captura de tela 2023-05-03 205442](https://user-images.githubusercontent.com/75287031/236076416-4ecb64df-58b7-4828-a4e9-626b40e23f13.png)
-![Captura de tela 2023-05-03 205638](https://user-images.githubusercontent.com/75287031/236076439-209f1777-00dc-42e5-911c-bc259b899a27.png)
-![Captura de tela 2023-05-03 205901](https://user-images.githubusercontent.com/75287031/236076452-4d7a4998-6c4d-4c83-bd9a-f281da93e5e0.png)
-![Captura de tela 2023-05-03 205749](https://user-images.githubusercontent.com/75287031/236076472-2e9e3508-de2c-4b8e-b07b-2061c76718ca.png)
+![Captura de tela 2023-05-03 205105](src/assets/images/preview1.png)
+![Captura de tela 2023-05-03 205442](src/assets/images/preview2.png)
+![Captura de tela 2023-05-03 205638](src/assets/images/preview3.png)
+![Captura de tela 2023-05-03 205901](src/assets/images/preview4.png)
+![Captura de tela 2023-05-03 205749](src/assets/images/preview5.png)
 
 
 ## 📂  Access to the project
