@@ -19,7 +19,7 @@ Welcome, this project is a Brazilian travel responsive website.
 
 
 ## 📂  Access to the project
-You can access the source code of the [download code](https://github.com/Jezebel1990/travel-destinations.git)or access the [website here](https://oval-plstravel.surge.sh/)
+You can access the source code of the [download code](https://github.com/Jezebel1990/travel-destinations.git) or access the [website here](https://oval-plstravel.surge.sh/)
 
 
 
